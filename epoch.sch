@@ -32,6 +32,7 @@ LIBS:switches
 LIBS:NXP
 LIBS:marks
 LIBS:maxim
+LIBS:marks_linear
 LIBS:epoch-cache
 EELAYER 25 0
 EELAYER END
@@ -1054,4 +1055,50 @@ Wire Wire Line
 Connection ~ 6650 1350
 Wire Wire Line
 	6650 950  6650 850 
+$Comp
+L MH2mm U6
+U 1 1 59C46AF5
+P 10350 2400
+F 0 "U6" H 10450 2400 60  0001 C CNN
+F 1 "MH2mm" H 10350 2700 60  0001 C CNN
+F 2 "my-fp-library:MH2mm" H 10350 2400 60  0001 C CNN
+F 3 "" H 10350 2400 60  0001 C CNN
+	1    10350 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L MH2mm U7
+U 1 1 59C46D36
+P 10350 2550
+F 0 "U7" H 10450 2550 60  0001 C CNN
+F 1 "MH2mm" H 10350 2850 60  0001 C CNN
+F 2 "my-fp-library:MH2mm" H 10350 2550 60  0001 C CNN
+F 3 "" H 10350 2550 60  0001 C CNN
+	1    10350 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L MH2mm U8
+U 1 1 59C46DAD
+P 10350 2700
+F 0 "U8" H 10450 2700 60  0001 C CNN
+F 1 "MH2mm" H 10350 3000 60  0001 C CNN
+F 2 "my-fp-library:MH2mm" H 10350 2700 60  0001 C CNN
+F 3 "" H 10350 2700 60  0001 C CNN
+	1    10350 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MH2mm U9
+U 1 1 59C46E3F
+P 10350 2850
+F 0 "U9" H 10450 2850 60  0001 C CNN
+F 1 "MH2mm" H 10350 3150 60  0001 C CNN
+F 2 "my-fp-library:MH2mm" H 10350 2850 60  0001 C CNN
+F 3 "" H 10350 2850 60  0001 C CNN
+	1    10350 2850
+	1    0    0    -1  
+$EndComp
+Text Notes 10000 2350 0    60   ~ 0
+Corner Mounting\nHoles
 $EndSCHEMATC

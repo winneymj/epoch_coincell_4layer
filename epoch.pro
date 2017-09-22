@@ -1,4 +1,4 @@
-update=5/30/2017 6:50:22 PM
+update=9/21/2017 7:48:51 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -22,6 +22,19 @@ BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=../../KiCad;../kicad-schlib-master/library;../kicad-library-master
@@ -59,16 +72,4 @@ LibName30=switches
 LibName31=kicad-schlib-master/library/NXP
 LibName32=marks
 LibName33=kicad-library-master/library/maxim
-[cvpcb]
-version=1
-NetIExt=net
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName34=marks_linear
