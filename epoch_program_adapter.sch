@@ -56,9 +56,9 @@ F 3 "" H 7300 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 7650 2900 2    60   Input ~ 0
-SWDIO/+3.3V(REGUL)
+SWDIO
 Text GLabel 7650 3000 2    60   Input ~ 0
-SWDCLK/+3.3V(BATT)
+SWDCLK
 Text GLabel 7650 3300 2    60   Input ~ 0
 RESET
 $Comp
@@ -73,9 +73,9 @@ F 3 "" H 6850 4100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 7300 4000 2    60   Input ~ 0
-SWDIO/+3.3V(REGUL)
+SWDIO
 Text GLabel 7300 4100 2    60   Input ~ 0
-SWDCLK/+3.3V(BATT)
+SWDCLK
 Text GLabel 7300 4200 2    60   Input ~ 0
 RESET
 Wire Wire Line
@@ -223,9 +223,9 @@ Connection ~ 5300 2450
 Wire Wire Line
 	5750 3000 6350 3000
 Text GLabel 4600 2450 0    60   Input ~ 0
-SWDIO/+3.3V(REGUL)
++3.3V(REGUL)
 Text GLabel 4600 3000 0    60   Input ~ 0
-SWDCLK/+3.3V(BATT)
++3.3V(BATT)
 $Comp
 L +3.3V #PWR04
 U 1 1 59C824F8
@@ -305,4 +305,27 @@ F 3 "" H 9350 2700 60  0001 C CNN
 	1    9350 2700
 	1    0    0    -1  
 $EndComp
+$Comp
+L CONN_01X02 J3
+U 1 1 5A087BD5
+P 6900 5050
+F 0 "J3" H 6900 5200 50  0000 C CNN
+F 1 "CONN_01X02" V 7000 5050 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch1.27mm" H 6900 5050 50  0001 C CNN
+F 3 "" H 6900 5050 50  0001 C CNN
+	1    6900 5050
+	-1   0    0    1   
+$EndComp
+Text GLabel 7200 5100 2    60   Input ~ 0
++3.3V(REGUL)
+Text GLabel 7200 4950 2    60   Input ~ 0
++3.3V(BATT)
+Wire Wire Line
+	7100 5000 7150 5000
+Wire Wire Line
+	7150 5000 7150 4950
+Wire Wire Line
+	7150 4950 7200 4950
+Wire Wire Line
+	7100 5100 7200 5100
 $EndSCHEMATC

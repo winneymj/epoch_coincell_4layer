@@ -1,4 +1,4 @@
-update=9/23/2017 2:26:47 PM
+update=10/14/2017 9:58:23 AM
 version=1
 last_client=eeschema
 [general]
@@ -61,3 +61,13 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=C:/Users/dell/Documents/KiCad/marks
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
